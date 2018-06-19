@@ -4,72 +4,59 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:gravity="center">
 
     <TextView
+        android:id="@+id/textviewRed"
+        android:background="#f20"
+        android:textColor="#ffff"
         android:textSize="30sp"
-        android:text="View 1"
+        android:text="Red"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
     <TextView
-        android:layout_alignParentRight="true"
+        android:id="@+id/textviewGreen"
+        android:layout_below="@id/textviewRed"
+        android:background="#6ab948"
+        android:textColor="#ffff"
         android:textSize="30sp"
-        android:text="View 2"
+        android:text="Green"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
     <TextView
-        android:layout_alignParentBottom="true"
+        android:id="@+id/textviewBlue"
+        android:layout_below="@id/textviewGreen"
+        android:background="#3a7bb4"
+        android:textColor="#ffff"
         android:textSize="30sp"
-        android:text="View 3"
+        android:text="Blue"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
     <TextView
-        android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"
+        android:id="@+id/textviewOrange"
+        android:layout_below="@id/textviewBlue"
+        android:background="#be933c"
+        android:textColor="#ffff"
         android:textSize="30sp"
-        android:text="View 4"
+        android:text="Orange"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
     <TextView
-        android:id="@+id/textviewView5"
-        android:layout_centerInParent="true"
+        android:id="@+id/textviewGray"
+        android:layout_below="@id/textviewOrange"
+        android:background="#939597"
+        android:textColor="#ffff"
         android:textSize="30sp"
-        android:text="View 5"
+        android:text="Gray"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
     <TextView
-        android:layout_above="@id/textviewView5"
-        android:textSize="20sp"
-        android:text="View 6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-    <TextView
-        android:layout_below="@id/textviewView5"
+        android:layout_below="@id/textviewGray"
+        android:background="#a727b3"
+        android:textColor="#ffff"
         android:textSize="30sp"
-        android:text="View 7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-    <TextView
-        android:layout_toRightOf="@id/textviewView5"
-        android:layout_above="@id/textviewView5"
-        android:textSize="30sp"
-        android:text="View 8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-    <TextView
-        android:layout_alignRight="@id/textviewView5"
-        android:layout_toLeftOf="@id/textviewView5"
-        android:layout_above="@id/textviewView5"
-        android:textSize="20sp"
-        android:text="View 9 "
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-    <TextView
-        android:textSize="30sp"
-        android:layout_below="@id/textviewView5"
-        android:layout_alignLeft="@id/textviewView5"
-        android:layout_alignRight="@id/textviewView5"
-        android:layout_alignTop="@id/textviewView5"
+        android:text="Pink"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 </RelativeLayout>
